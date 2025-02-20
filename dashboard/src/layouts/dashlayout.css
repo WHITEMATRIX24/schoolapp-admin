@@ -1,0 +1,14 @@
+.dash-layout-top-container {
+  display: flex;
+  gap: 2rem;
+  width: 100%;
+  background-color: var(--page-background-color);
+  min-height: 100vh;
+}
+.dash-layout-sidebar-container {
+  width: 320px;
+  position: relative;
+}
+.dash-layout-content-container {
+  width: 100%;
+}
