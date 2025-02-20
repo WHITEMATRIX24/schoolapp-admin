@@ -9,4 +9,7 @@ body {
   --page-background-color: #f9f9f9;
   --component-background-color: #ffffff;
   --component-border-color: #efeff4;
+  --text-primary-grey-color: #666666;
+  --text-secondary-grey-color: #8a8a8f;
+  --text-color-black: #000000;
 }

@@ -58,6 +58,11 @@ const Sidebar = () => {
       </div>
       {/* footer */}
       <div className="sidebar-footer-container">
+        <div className="sidebar-footer-select-container">
+          <select defaultValue="english">
+            <option value="english">English</option>
+          </select>
+        </div>
         <div className="sidebar-menu">
           <span>
             <IoLogOutOutline />
