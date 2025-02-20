@@ -4,6 +4,9 @@ import { LuLayoutDashboard } from "react-icons/lu";
 import { BsPersonCircle } from "react-icons/bs";
 import { HiOutlineAcademicCap } from "react-icons/hi2";
 import { IoLogOutOutline } from "react-icons/io5";
+import { CiGlobe } from "react-icons/ci";
+import { CiLight } from "react-icons/ci";
+import { CiDark } from "react-icons/ci";
 import "./sidebar.css";
 
 const Sidebar = () => {
@@ -58,12 +61,29 @@ const Sidebar = () => {
       </div>
       {/* footer */}
       <div className="sidebar-footer-container">
+        <div className="sidebar-footer-toggle-container">
+          <div className="toggle-light">
+            <span>
+              <CiLight />
+            </span>
+            <p>Light</p>
+          </div>
+          <div className="toggle-dark">
+            <span>
+              <CiDark />
+            </span>
+            <p>Dark</p>
+          </div>
+        </div>
         <div className="sidebar-footer-select-container">
+          <span>
+            <CiGlobe />
+          </span>
           <select defaultValue="english">
             <option value="english">English</option>
           </select>
         </div>
-        <div className="sidebar-menu">
+        <div className="sidebar-menu sidebar-logout-btn">
           <span>
             <IoLogOutOutline />
           </span>
